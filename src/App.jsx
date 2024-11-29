@@ -12,6 +12,9 @@ import Component310 from "./component/Component310";
 import Component3101 from "./component/Component3101";
 import TenthComponent from "./component/TenthComponent";
 import HwComponent from "./component/HwComponent";
+import New1108 from "./component/New1108";
+import New11081 from "./component/New11081.jsx";
+import ComponentPostApiCall from "./component/ComponentPostApiCall.jsx";
 
 function App() {
   // const studentInfo ={
@@ -127,10 +130,41 @@ function App() {
 
 
       <Component3101 Product={products}/>
-        <br></br> <br></br> <br></br><br></br> <br></br> <br></br> <br></br><br></br>
+        <br></br> <br></br> <br></br><br></br> <br></br> <br></br> <br></br><br></br> <br></br><br></br>
       <HwComponent/>
 
       <h>Monalisar Shoitan bandhubi Tuly </h>
+
+      <br></br> <br></br> <br></br><br></br> <br></br><br></br>  
+
+      <br></br> <br></br> <br></br><br></br> <br></br><br></br>
+
+      <br></br> <br></br> <br></br><br></br> <br></br><br></br>
+
+     
+      <Box 
+        sx={{
+          display: 'flex',
+          justifyContent: 'center',  // Center the FirstComponent
+          mt: 2,                     // Optional: Adds margin-top for spacing
+        }}
+      >
+         <New1108 />
+      </Box>
+
+      <Box 
+        sx={{
+          display: 'flex',
+          justifyContent: 'center',  // Center the FirstComponent
+          mt: 2,                     // Optional: Adds margin-top for spacing
+        }}
+      >
+         <New11081 />
+
+      </Box>
+        <br></br>
+        <br></br>
+        
       
     </>
   );
